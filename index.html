@@ -1,73 +1,56 @@
 <!DOCTYPE html>
-<!-- saved from url=(0056)http://demos.sucaihuo.com/modals/35/3573/demo/class.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
-	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
-	<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
-	<title>醉爱导航-人人都爱得导航</title>
-	<style>
-		* {box-sizing: border-box}
-		body {font-family: "Lato", sans-serif; background:#fff;}
-
-		/* Style the tab */
-		div.tab {
-			float: left;
-			background-color: #f4f4f4;
-			width: 25%;
-		}
-
-		/* Style the buttons inside the tab */
-		div.tab button {
-			display: block;
-			background-color: inherit;
-			width: 100%;
-			text-align:center;
-			border: none;
-			outline: none;
-			cursor: pointer;
-			transition: 0.3s;
-			font-size: 12px;
-			font-weight:400;
-			padding:15px 0;
-			height:auto;
-			line-height:normal;
-			color:#666;
-		}
-
+<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+<title>醉爱导航-人人都爱得导航</title>
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif; background:#fff;}
+/* Style the tab */
+div.tab {float: left;
+background-color: #f4f4f4;
+width: 25%;}
+/* Style the buttons inside the tab */
+div.tab button {
+display: block;
+background-color: inherit;
+width: 100%;
+text-align:center;
+border: none;
+outline: none;
+cursor: pointer;
+transition: 0.3s;
+font-size: 12px;
+font-weight:400;
+padding:15px 0;
+height:auto;
+line-height:normal;
+			color:#666;}
 		/* Change background color of buttons on hover */
 		div.tab button:hover {
 			background-color: #fff;
 			border-radius:0;
-			color:#f23030;
-		}
-
+			color:#f23030;}
 		/* Create an active/current "tab button" class */
 		div.tab button.active {
 			background-color: #fff;
 			border-radius:0;
-			color:#f23030;
-		}
-
+			color:#f23030;}
 		/* Style the tab content */
 		.tabcontent {
 			float: left;
 			width: 75%;
-			border-left: none;
-		}
+			border-left: none;}
 		.class-ui-ad {
-			margin:10px 10px 0px 10px;
-
-		}
+			margin:10px 10px 0px 10px;}
 		.class-ui-ad a img{
 			width:100%;
 			height:100%;
 			display:block;
-			border:none;
-		}
+			border:none;}
 		.class-ui-title{
 			text-align:center;
-			padding:14px 0;
-		}
+			padding:14px 0;}
 		.class-ui-title h3{
 			display: inline-block;
 			position: relative;
@@ -76,8 +59,7 @@
 			font-size: 12px;
 			vertical-align: middle;
 			padding: 0 .92rem;
-			color:#f23030;
-		}
+			color:#f23030;}
 		.class-ui-title h3:before {
 			position: absolute;
 			top: 5px;
@@ -85,8 +67,7 @@
 			width: .72rem;
 			height: 1px;
 			background: #ccc;
-			left: 0;
-		}
+			left: 0;}
 		.class-ui-title h3:after{
 			position: absolute;
 			top: 5px;
@@ -94,485 +75,363 @@
 			width: .72rem;
 			height: 1px;
 			background: #ccc;
-			right: 0;
-		}
+			right: 0;}
 		.class-ui-text .aui-col-xs-4 a img{
 			width: 2.6rem;
 			height: 2.6rem;
-			margin:0 auto;
-		}
+			margin:0 auto;}
 		.class-ui-text .aui-col-xs-4 a p{
 			text-align:center;
 			color:#999;
-			font-size:12px;
-		}
-	</style>
-	<link rel="icon" type="image/x-icon" href="http://demos.sucaihuo.com/modals/35/3573/demo/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="./index_files/aui.css">
-
+			font-size:12px;}
+</style>
+<link rel="stylesheet" type="text/css" href="./index_files/aui.css">
 <style id="a1bb2edb-f816-483e-85c2-d22120740d1b">#rwl-iqxin{position:fixed;top:0;left:-62px;width:58px;height:25px;font-size:12px;font-weight: 500;font-family:Verdana, Arial, '宋体';color:#fff;background:#333;z-index:2147483647;margin: 0;opacity:0.05;transition:0.3s;overflow:hidden;user-select:none;text-align:center;white-space:nowrap;line-height:25px;padding:0 16px;border:1px solid #ccc;border-width:1px 1px 1px 0;border-bottom-right-radius:5px;box-sizing: content-box;}#rwl-iqxin input{margin: 0;padding: 0;vertical-align:middle;-webkit-appearance:checkbox;-moz-appearance:checkbox;position: static;clip: auto;opacity: 1;}#rwl-iqxin.rwl-active-iqxin{left: 0px;opacity: 0.9;height: 32px;line-height: 32px}#rwl-iqxin label{margin:0;padding:0;font-weight:500;}</style></head>
 <body style="background: rgb(225, 230, 215);">
 <header class="aui-bar aui-bar-nav">
-	<a class="aui-pull-left aui-btn">
-		<span class="aui-iconfont aui-icon-left"></span>
-	</a>
-	<div class="aui-title" style="left:2rem; right: 2rem;">
-		<div class="aui-searchbar" id="search">
+<a class="aui-pull-left aui-btn">
+<span class="aui-iconfont aui-icon-left"></span></a>
+<div class="aui-title" style="left:2rem; right: 2rem;">
+<div class="aui-searchbar" id="search">
 <div class="aui-searchbar-input aui-border-radius" style="background-color: rgb(225, 230, 215);">
-				<i class="aui-iconfont aui-icon-search"></i>
-				<input type="search" placeholder="7.4洗衣机超级购物日" id="search-input">
-				<div class="aui-searchbar-clear-btn">
-					<i class="aui-iconfont aui-icon-close"></i>
-				</div>
-</div>
+<i class="aui-iconfont aui-icon-search"></i>
+<input type="search" placeholder="爱你影院欢迎你" id="search-input">
+<div class="aui-searchbar-clear-btn">
+<i class="aui-iconfont aui-icon-close"></i></div></div>
 <div class="aui-searchbar-btn" tapmode="">取消</div>
-		</div>
-	</div>
-	<a class="aui-pull-right aui-btn">
-		<span class="aui-iconfont aui-icon-comment"></span>
-	</a>
+</div></div>
+<a class="aui-pull-right aui-btn">
+<span class="aui-iconfont aui-icon-comment"></span></a>
 </header>
-
 <div class="tab" style="background-color: rgb(225, 230, 215);">
-	<button class="tablinks active" onclick="openCity(event, &#39;tab1&#39;)" id="defaultOpen" style="background-color: rgb(225, 230, 215);">在线电影</button>
-	<button class="tablinks" onclick="openCity(event, &#39;tab2&#39;)" style="background-color: rgb(225, 230, 215);">福利电影</button>
-	<button class="tablinks" onclick="openCity(event, &#39;tab3&#39;)" style="background-color: rgb(225, 230, 215);">在线导航</button>
+<button class="tablinks active" onclick="openCity(event, &#39;tab1&#39;)" id="defaultOpen" style="background-color: rgb(225, 230, 215);">在线电影</button>
+<button class="tablinks" onclick="openCity(event, &#39;tab2&#39;)" style="background-color: rgb(225, 230, 215);">福利电影</button>
+<button class="tablinks" onclick="openCity(event, &#39;tab3&#39;)" style="background-color: rgb(225, 230, 215);">在线导航</button>
 </div>
-
 <div id="tab1" class="tabcontent" style="display: block;">
-	<div class="class-ui-title">
-		<h3>在线电影</h3>
-	</div>
-	<div class="aui-row aui-row-padded class-ui-text">
-					  <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/index.php"><p>卧龙影院</p>
-	</div>	     
+<div class="class-ui-title">
+<h3>在线电影</h3></div>
+<div class="aui-row aui-row-padded class-ui-text">
+<div class="aui-col-xs-4">
+<a href="http://huyulan.6doname.net/index.php"><p>卧龙影院</p></div>	     
+ <div class="aui-col-xs-4">
+<a href="http://huyulan.6doname.net/zd.php"><p>最大影院</p></div>
+<div class="aui-col-xs-4">
+<a href="http://huyulan.6doname.net/bj.php"><p>八戒影院</p></div>   
+<div class="aui-col-xs-4">
+<a href="http://huyulan.6doname.net/rr.php"><p>人人影院</p></div>  
+ <div class="aui-col-xs-4">
+<a href="http://huyulan.6doname.net/db.php"><p>豆瓣影院</p></div>   
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/zd.php"><p>最大影院</p>
-		    </div>
-  <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/bj.php"><p>八戒影院</p>
-		</div>   
-  <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/rr.php"><p>人人影院</p>
-		 </div>  
-  <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/db.php"><p>豆瓣影院</p>
+<a href="http://huyulan.6doname.net/gq.php"><p>高清影院</p>
 		 </div>   
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/gq.php"><p>高清影院</p>
-		 </div>   
-  <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/jk.php"><p>极快影院</p>
+<a href="http://huyulan.6doname.net/jk.php"><p>极快影院</p>
 		  </div>     
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/mg.php"><p>芒果影院</p>
+<a href="http://huyulan.6doname.net/mg.php"><p>芒果影院</p>
 		    </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/mb.php"><p>秒播影院</p>
+<a href="http://huyulan.6doname.net/mb.php"><p>秒播影院</p>
 		</div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/sb.php"><p>速播影院
+<a href="http://huyulan.6doname.net/sb.php"><p>速播影院
 </p>
 	</div>	
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/sl.php"><p>捜乐影院</p>
+<a href="http://huyulan.6doname.net/sl.php"><p>捜乐影院</p>
 	</div>	
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/ds.php"><p>大师影院</p>
+<a href="http://huyulan.6doname.net/ds.php"><p>大师影院</p>
 		</div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/zq.php"><p>最全影院</p>
+<a href="http://huyulan.6doname.net/zq.php"><p>最全影院</p>
 		</div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/mob.php"><p>摩拜高清</p>
+<a href="http://huyulan.6doname.net/mob.php"><p>摩拜高清</p>
 		</div>   
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/kb.php"><p>快播影院</p>
+<a href="http://huyulan.6doname.net/kb.php"><p>快播影院</p>
 		</div>    
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/ky.php"><p>快影影院</p>
+<a href="http://huyulan.6doname.net/ky.php"><p>快影影院</p>
 		 </div>   
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/ld.php"><p>乐豆影院</p>
+<a href="http://huyulan.6doname.net/ld.php"><p>乐豆影院</p>
 		  </div>     
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/mh.php"><p>美韩影院</p>
+<a href="http://huyulan.6doname.net/mh.php"><p>美韩影院</p>
 		  </div>  
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/mk.php"><p>妹快影院</p>
+<a href="http://huyulan.6doname.net/mk.php"><p>妹快影院</p>
 		    </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/nn.php"><p>牛牛美剧</p>
+<a href="http://huyulan.6doname.net/nn.php"><p>牛牛美剧</p>
 		    </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/ok.php"><p>OK影院</p>
+<a href="http://huyulan.6doname.net/ok.php"><p>OK影院</p>
 		    </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/zx.php"><p>最新影院</p>
+<a href="http://huyulan.6doname.net/zx.php"><p>最新影院</p>
 		    </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/131.php"><p>131影院</p>
+<a href="http://huyulan.6doname.net/131.php"><p>131影院</p>
 		     </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/135.php"><p>135影院</p>
+<a href="http://huyulan.6doname.net/135.php"><p>135影院</p>
 		    </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/158.php"><p>158影院</p>
+<a href="http://huyulan.6doname.net/158.php"><p>158影院</p>
 		    </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/209.php"><p>209影院</p>
+<a href="http://huyulan.6doname.net/209.php"><p>209影院</p>
 		</div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/123.php"><p>123影院</p>
+<a href="http://huyulan.6doname.net/123.php"><p>123影院</p>
 		 </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/88.php"><p>88影院</p>
+<a href="http://huyulan.6doname.net/88.php"><p>88影院</p>
 		</div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/bbg.php"><p>步步高影院</p>
+<a href="http://huyulan.6doname.net/bbg.php"><p>步步高影院</p>
 		</div>    
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/ck.php"><p>超快影院</p>
+<a href="http://huyulan.6doname.net/ck.php"><p>超快影院</p>
 		</div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/jh.php"><p>聚合影院</p>
+<a href="http://huyulan.6doname.net/jh.php"><p>聚合影院</p>
 		</div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/765.php"><p>醉心影院</p>
+<a href="http://huyulan.6doname.net/765.php"><p>醉心影院</p>
 		   </div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/80.php"><p>80影院</p>
+<a href="http://huyulan.6doname.net/80.php"><p>80影院</p>
 		</div>
   <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/m.php"><p>清理缓存</p>
+<a href="http://huyulan.6doname.net/m.php"><p>清理缓存</p>
 		</div>
 	</div>
 </div>
-
 <div id="tab2" class="tabcontent" style="display: none;">
 		<div class="class-ui-title">
 		<h3>福利电影</h3>
 	</div>
 	<div class="aui-row aui-row-padded class-ui-text">
 		<div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/index.php">
+<a href="http://huyulan.6doname.net/iyy/index.php">
 <p>神马影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/lebo.php">
+<a href="http://huyulan.6doname.net/iyy/lebo.php">
 <p>乐播影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/msn.php">
+<a href="http://huyulan.6doname.net/iyy/msn.php">
 <p>美少女影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/1769.php">
+<a href="http://huyulan.6doname.net/iyy/1769.php">
 <p>1769影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/ixx.php">
+<a href="http://huyulan.6doname.net/iyy/ixx.php">
 <p>ixx影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/lajiao.php">
+<a href="http://huyulan.6doname.net/iyy/lajiao.php">
 <p>辣椒影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/qiezi.php">
+<a href="http://huyulan.6doname.net/iyy/qiezi.php">
 <p>茄子影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/paotai.php">
+<a href="http://huyulan.6doname.net/iyy/paotai.php">
 <p>炮台影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/rere.php">
+<a href="http://huyulan.6doname.net/iyy/rere.php">
 <p>热热影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/avfofo.php">
+<a href="http://huyulan.6doname.net/iyy/avfofo.php">
 <p>avfofo影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/77.php">
+<a href="http://huyulan.6doname.net/iyy/77.php">
 <p>77影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/ooh.php">
+<a href="http://huyulan.6doname.net/iyy/ooh.php">
 <p>00h影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/dadi.php">
+<a href="http://huyulan.6doname.net/iyy/dadi.php">
 <p>大地影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/kh.php">
+<a href="http://huyulan.6doname.net/iyy/kh.php">
 <p>快活影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/800.php">
+<a href="http://huyulan.6doname.net/iyy/800.php">
 <p>800影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/644.php">
+<a href="http://huyulan.6doname.net/iyy/644.php">
 <p>644影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/7000.php">
+<a href="http://huyulan.6doname.net/iyy/7000.php">
 <p>7000影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/yumi.php">
+<a href="http://huyulan.6doname.net/iyy/yumi.php">
 <p>玉米影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/feiji.php">
+<a href="http://huyulan.6doname.net/iyy/feiji.php">
 <p>飞机馆影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/huanggua.php">
+<a href="http://huyulan.6doname.net/iyy/huanggua.php">
 <p>黄瓜影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/mantou.php">
+<a href="http://huyulan.6doname.net/iyy/mantou.php">
 <p>馒头影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/jiali.php">
+<a href="http://huyulan.6doname.net/iyy/jiali.php">
 <p>佳丽影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/shayue.php">
+<a href="http://huyulan.6doname.net/iyy/shayue.php">
 <p>鲨鱼影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/zk.php">
+<a href="http://huyulan.6doname.net/iyy/zk.php">
 <p>最快影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/avzy.php">
+<a href="http://huyulan.6doname.net/iyy/avzy.php">
 <p>AV影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/f2d.php">
+<a href="http://huyulan.6doname.net/iyy/f2d.php">
 <p>富二代影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/btt.php">
+<a href="http://huyulan.6doname.net/iyy/btt.php">
 <p>博天堂影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/hy.php">
+<a href="http://huyulan.6doname.net/iyy/hy.php">
 <p>环亚影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/jj.php">
+<a href="http://huyulan.6doname.net/iyy/jj.php">
 <p>玖玖影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/ss.php">
+<a href="http://huyulan.6doname.net/iyy/ss.php">
 <p>色色影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/jc.php">
+<a href="http://huyulan.6doname.net/iyy/jc.php">
 <p>久草影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/lsn.php">
+<a href="http://huyulan.6doname.net/iyy/lsn.php">
 <p>撸死你影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/ny.php">
+<a href="http://huyulan.6doname.net/iyy/ny.php">
 <p>女优影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/ll.php">
+<a href="http://huyulan.6doname.net/iyy/ll.php">
 <p>利来影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/zm.php">
+<a href="http://huyulan.6doname.net/iyy/zm.php">
 <p>字幕影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/bw.php">
+<a href="http://huyulan.6doname.net/iyy/bw.php">
 <p>百万影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/567.php">
+<a href="http://huyulan.6doname.net/iyy/567.php">
 <p>567影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/pg.php">
+<a href="http://huyulan.6doname.net/iyy/pg.php">
 <p>影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/xc.php">
+<a href="http://huyulan.6doname.net/iyy/xc.php">
 <p>影院</p>
 </a></div>
-	
 <div class="aui-col-xs-4">
-<a href="http://yulechang.xyz/iyy/m.php">
+<a href="http://huyulan.6doname.net/iyy/m.php">
 <p>清理缓存</p>
 </a></div>
 	</div>
 	</div>
 </div>
-
 <div id="tab3" class="tabcontent" style="display: none;">
-		<div class="class-ui-title">
-		<h3>在线导航</h3>
-	</div>
-	<div class="aui-row aui-row-padded class-ui-text">
-		<div class="aui-col-xs-4">
-  <a href="">
-<p>欢迎申请</p>
-</a></div>
-	</div>
-</div>
-
+<div class="class-ui-title"><h3>在线导航</h3></div>
+<div class="aui-row aui-row-padded class-ui-text">
+<div class="aui-col-xs-4"><a href=""><p>欢迎申请</p></a></div>
+</div></div>
 <div id="tab4" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
-
+<h3>tab3</h3></div>
 <div id="tab5" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
-
+<h3>tab3</h3></div>
 <div id="tab6" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
-
+<h3>tab3</h3></div>
 <div id="tab7" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
-
+<h3>tab3</h3></div>
 <div id="tab8" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
+<h3>tab3</h3></div>
 <div id="tab9" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
+<h3>tab3</h3></div>
 <div id="tab10" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
+<h3>tab3</h3></div>
 <div id="tab11" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
+<h3>tab3</h3></div>
 <div id="tab12" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
+<h3>tab3</h3></div>
 <div id="tab13" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
-
+<h3>tab3</h3></div>
 <div id="tab14" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
+<h3>tab3</h3></div>
 <div id="tab15" class="tabcontent" style="display: none;">
 	<h3>tab3</h3>
 </div>
-
-
 <div id="tab16" class="tabcontent" style="display: none;">
 	<h3>tab3</h3>
 </div>
-
-
 <div id="tab17" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
-
-
+<h3>tab3</h3></div>
 <div id="tab18" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
+<h3>tab3</h3></div>
 <div id="tab19" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
-
-
+<h3>tab3</h3></div>
 <div id="tab20" class="tabcontent" style="display: none;">
-	<h3>tab3</h3>
-</div>
-
-
-
-
-
-
-
-
+<h3>tab3</h3></div>
 <script type="text/javascript">
-    function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-
-    // 触发 id="defaultOpen" click 事件
-    document.getElementById("defaultOpen").click();
+function openCity(evt, cityName) {var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "none";}
+tablinks = document.getElementsByClassName("tablinks");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].className = tablinks[i].className.replace(" active", "");}
+document.getElementById(cityName).style.display = "block";
+evt.currentTarget.className += " active";}
+// 触发 id="defaultOpen" click 事件
+document.getElementById("defaultOpen").click();
 </script>
-
 <remove-web-limits-iqxin id="rwl-iqxin" class="rwl-exempt"><label>限制解除 <input type="checkbox" name="" id="black_node"></label></remove-web-limits-iqxin></body></html>
